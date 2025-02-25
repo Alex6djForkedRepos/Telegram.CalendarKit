@@ -6,7 +6,7 @@
 This library provides functionality for generating and sending calendars in Telegram bots. It allows creating inline buttons to display calendars for various months with navigation support between months. The library supports two view types: a full monthly calendar and a weekly calendar view. Additionally, it enables sending the generated calendars to a chat and handling user actions, such as moving to the next or previous month.
 
 ### Dependencies
-- Telegram.Bot (version 22.3.0): A library for interacting with the Telegram Bot API. It is used for sending messages and handling user commands within the Telegram environment. https://github.com/TelegramBots/Telegram.Bot
+- Telegram.Bot (version 22.4.4): A library for interacting with the Telegram Bot API. It is used for sending messages and handling user commands within the Telegram environment. https://github.com/TelegramBots/Telegram.Bot
 - .NET 8.0: The target framework for the library, which provides the necessary platform and runtime support for the application.
 
 ## Description
@@ -98,7 +98,7 @@ This will return the French weekday names: `{"Lun", "Mar", "Mer", "Jeu", "Ven", 
 Эта библиотека предоставляет функциональность для генерации и отправки календарей в Telegram-ботах. Она позволяет создавать inline кнопки для отображения календарей различных месяцев с поддержкой навигации между месяцами. Библиотека поддерживает два типа представлений: полное отображение месяца и отображение календаря по неделям. Также есть возможность отправить сгенерированные календари в чат и обрабатывать действия пользователя, такие как переходы к следующему или предыдущему месяцу.
 
 ### Зависимости
-Telegram.Bot (версия 22.3.0): библиотека для взаимодействия с Telegram Bot API. Она используется для отправки сообщений и обработки команд пользователя через Telegram.
+Telegram.Bot (версия 22.4.4): библиотека для взаимодействия с Telegram Bot API. Она используется для отправки сообщений и обработки команд пользователя через Telegram.
 
 ## Описание
 CalendarBuilder — это класс для генерации календарей в Telegram-ботах. Он предоставляет функциональность для создания inline кнопок календаря с возможностью навигации по месяцам и отображения календаря в разных представлениях (полный месяц или неделя). Класс также позволяет отправлять сгенерированные календари в чат и обрабатывать навигацию между месяцами.
