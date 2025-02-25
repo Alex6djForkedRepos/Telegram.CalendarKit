@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	<Version>1.0.1</Version>
+	<Version>1.0.2</Version>
 	<PackageId>Telegram.CalendarKit</PackageId>
 	<Authors>Pototsky Alexander</Authors>
 	<Company>black illusion</Company>
@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Telegram.Bot" Version="22.3.0" />
+    <PackageReference Include="Telegram.Bot" Version="22.4.4" />
   </ItemGroup>
 
 </Project>
